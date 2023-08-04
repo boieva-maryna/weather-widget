@@ -44,6 +44,13 @@ $ npm run start:dev
 # production mode
 $ npm run start:prod
 ```
+## .env
+
+Create .env with the following content:
+
+```
+OPENWEATHERMAP_API_KEY="longapikeystringfromopenweathermap"
+```
 
 ## Test
 
