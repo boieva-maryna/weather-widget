@@ -29,6 +29,7 @@ export class WeatherService {
         speed,
         direction: convertDegreeToCompassPoint(deg),
       },
+      city: response.data.name,
     };
   }
 }
